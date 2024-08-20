@@ -1,18 +1,19 @@
-//Sum of two numbers using class
-#include<iostream>
+// C++ program for sum of two numbers using class
+#include <iostream>
 using namespace std;
 class Mathematics
 {
-    int x,y;
-    public:
+    int x, y;
+
+public:
     void input()
     {
-        cout<<"Input two integers\n";
-        cin>>x>>y;
+        cout << "Input two integers\n";
+        cin >> x >> y;
     }
     void add()
     {
-        cout<<"Result:"<<x+y;
+        cout << "Result:" << x + y;
     }
 };
 int main()
